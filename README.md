@@ -16,6 +16,22 @@ Creating a simple system for managing Boris Bikes in London.
 
 A system like this (in a much more complex form) is actually used by the real Boris bikes system in London. Every time you rent a bike or return it some objects get created somewhere in the system that tracks the usage of all bikes.
 
+##Domain Model
+==============
+
+The problem:
+I am building a system that manages bikes that can be rented by users from docking stations and returned there at the end of the rental. 
+The bikes can break while being used, in which case they will not be available for rental after they are returned. 
+There is a garage that can fix broken bikes. 
+A van is used to move broken bikes from the stations to the garage. 
+It can also be used to take fixed bikes back to the station(s). 
+The van, all stations and the garage have fixed capacity, so they cannot take more bikes than they can hold.
+
+*The easy way to start thinking about what classes I may have is to take a look at all nouns in the text. They are prime candidates for classes.*
+
+*My classes will implement a number of methods. To get an idea of what they may be, I can take a look at the verbs in the description.*
+
+
 ##Class Responsibility Collaborations
 *************************************
 
