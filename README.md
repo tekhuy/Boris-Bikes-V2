@@ -4,7 +4,7 @@ Makers Academy Week 1 Task - RECAP
 # OOD & OOP Basics: Boris Bikes
 ===============================
 
-The goal of this project is to Object-Oriented Programming (OOP) and the very basics of Object-Oriented Design (OOD).
+The goal of this project is to introduce Object-Oriented Programming (OOP) and the very basics of Object-Oriented Design (OOD).
 
 ##Client Brief:
 Creating a simple system for managing Boris Bikes in London. 
@@ -16,7 +16,7 @@ Creating a simple system for managing Boris Bikes in London.
 
 A system like this (in a much more complex form) is actually used by the real Boris bikes system in London. Every time you rent a bike or return it some objects get created somewhere in the system that tracks the usage of all bikes.
 
-**Class Responsibility Collaborations**
+##Class Responsibility Collaborations**
 ***************************************
 
 ###class Bike
